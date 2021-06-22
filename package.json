@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "openCypressTestRunner": "node_modules\\.bin\\cypress open"
   },
   "repository": {
     "type": "git",
@@ -16,7 +16,9 @@
     "url": "https://github.com/Oladeni1/CypressAPI_XHR/issues"
   },
   "homepage": "https://github.com/Oladeni1/CypressAPI_XHR#readme",
-  "dependencies": {
-    "cypress": "^3.8.1"
+  "dependencies": {},
+  "devDependencies": {
+    "cypress": "^4.5.0",
+    "prettier": "2.0.5"
   }
 }
